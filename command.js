@@ -1,2 +1,2 @@
 console.log("command");
-console.log("version2");
+console.log("version4");
