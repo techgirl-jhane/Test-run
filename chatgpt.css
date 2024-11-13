@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+  /* position: relative; */
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  min-width: 150px;
+  overflow: visible;
+  
+}
+
+.fa-angle-down {
+  margin-right: 20px;
+}
+
+
+i {
+   color: #fff;
+    
+}
+
+.gpt, .chat{
+  color: #888;
+  border: none;
+  background: transparent;
+  margin: 5px;
+  order: 2;
+  padding: 5px;
+  /* text-align: center; */
+  /* margin-top: 5px; */
+  font-size: medium;
+  /* align-self: flex-start; */
+}
+
+h1 {
+    color: #dbc6c6;
+}
+
+.what {
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    margin-top: 40px;
+    height: 50px;
+    line-height: 50px;
+}
+.center {
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    color: #333;
+    backdrop-filter: blur(30px);
+    margin: 7px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.chatbox {
+    position: relative;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+}
+  
+  .chatbox input {
+    width: 100%;
+    color: #fdfafa;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border: 1px solid #494747;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+  
+  .icon-attach, .icon-send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fdfafa;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+  .icon-attach::before, .icon-send::before {
+    font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  color: #888;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+  
+  .icon-attach {
+    left: 10px;
+    content: "\1F4CE";
+}
+  
+  .icon-send {
+    right: 30px;
+    content: "\2191";
+}
+  
+h4 {
+  padding: 2px;
+  font-size: small;
+  display: flex;
+  margin:0 auto;
+  position: relative;
+  justify-content: center;
+}
+
